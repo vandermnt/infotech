@@ -23,7 +23,7 @@
         <div class="contact">
         </div>
         <nav class="d-flex aic" style="margin-top: ">
-          <a href="#" class="login"><i style="color: #00ffff" class="fa fa-user" aria-hidden="true"></i>Login</a>
+          <a href="{{route('login')}}" class="login"><i style="color: #00ffff" class="fa fa-user" aria-hidden="true"></i>Login</a>
           <ul class="nav social d-none d-md-flex">
             <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
