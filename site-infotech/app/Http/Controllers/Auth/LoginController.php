@@ -48,7 +48,7 @@ class LoginController extends Controller
         if($user != null){
             Auth::login($user);
 
-            return redirect()->route('home');
+            return redirect()->route('fatura.index');
         } else {
             return redirect()->back()->withInput()->with('error', 'E-mail ou senha incorretos!');
         }
