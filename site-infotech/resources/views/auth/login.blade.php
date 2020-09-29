@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/images/icon.png"/>
 
-    <title>Login | Infotech</title>
+    <title>Login</title>
 
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/login.js') }}" defer></script>
